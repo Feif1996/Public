@@ -1,22 +1,30 @@
-# 托盤擺放優化模型
+## 簡介
+提供專案的簡要介紹，說明其目的和範圍。
 
-此項目實現了一個基於 C# 和 CPLEX 的三維托盤擺放優化模型，目標是最小化托盤的使用數量。
+## 要求
+列出運行專案所需的軟體和庫，例如：
+- C#（版本 8.0 或更高）
+- IBM ILOG CPLEX Optimization Studio
 
-## 目標
-- 最小化托盤使用數量
-- 確保每個料號符合訂單需求
+## 安裝
+詳細說明如何在本地設置專案：
+1. 克隆儲存庫：`git clone https://github.com/yourusername/your-repo-name.git`
+2. 在 Visual Studio 中打開解決方案文件。
+3. 安裝必要的 NuGet 套件。
 
-## 使用說明
-1. 安裝 [CPLEX](https://www.ibm.com/products/ilog-cplex-optimization-studio)
-2. 克隆此倉庫到本地：`git clone https://github.com/yourusername/your-repo-name`
-3. 在 Visual Studio 中打開解決方案並運行
+## 使用
+如何運行專案和使用模型：
+1. 在 Visual Studio 中打開解決方案。
+2. 配置輸入數據文件。
+3. 構建並運行專案。
 
-## 文件結構
-- `README.md` - 此說明文件
-- `Program.cs` - 主程序文件
-- `Model.cs` - 儲存數學模型和參數的文件
-- `Solver.cs` - 儲存求解邏輯的文件
-- `Data/InputData.cs` - 儲存輸入數據的文件
+## 貢獻
+貢獻指南：
+1. Fork 此儲存庫。
+2. 創建新分支 (`git checkout -b feature-branch`)。
+3. 提交更改 (`git commit -am 'Add new feature'`)。
+4. 推送到分支 (`git push origin feature-branch`)。
+5. 創建新的 Pull Request。
 
-## 參考
-- [托盤擺放優化模型說明](./documentation/model_description.pdf)
+## 許可證
+指定專案的許可證。
