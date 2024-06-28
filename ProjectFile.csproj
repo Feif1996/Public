@@ -14,3 +14,20 @@
   </ItemGroup>
 
 </Project>
+using System;
+
+namespace CplexModelProject
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Starting CPLEX Model...");
+
+            Model model = new Model();
+            model.Solve();
+
+            Console.WriteLine("Model execution finished.");
+        }
+    }
+}
