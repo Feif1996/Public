@@ -1,0 +1,63 @@
+# 忽略 Visual Studio 臨時文件、構建結果和文件夾配置文件
+.vscode/
+*.code-workspace
+
+# 用戶特定文件
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 用戶特定文件（Mono 自動生成）
+mono_crash.*
+
+# 構建結果
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# C++ 快取文件
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+
+# 實體框架
+*.edmx.sql
+*.edmx.diagram
+
+# NuGet 套件
+*.nupkg
+*.snupkg
+# NuGet 符號包
+*.symbols.nupkg
+
+# Windows 圖像文件快取
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# 文件夾配置文件
+Desktop.ini
+
+# 文件共享的回收站
+$RECYCLE.BIN/
+
+# VS Code 目錄
+.vscode/
+*.code-workspace
+
+# 其他
+.vs
